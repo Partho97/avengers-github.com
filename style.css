@@ -566,13 +566,13 @@ hr{
     
 }
 .footer-row p{
-    color: #800000;
+    color: #000;
     line-height: 45px;
 
 }
 .footer-left .fa,.footer-right .fa{
 font-size: 15px;
-    color: #009688;
+    color: #000;
     margin: 7px;
     
 
@@ -596,7 +596,7 @@ font-size: 15px;
     line-height: 40px;
     border: 1px solid #009688;
     margin: 40px 5px 0;
-    color: #009688;
+    color: #000;
     cursor: pointer;
     transition: .5s;
 }
@@ -608,7 +608,7 @@ font-size: 15px;
 .social-link p{
     font-size: 12px;
     margin: 100px;
-    color: #009688;
+    color: #000;
 }    
 @media screen and (max-width: 770px){
     .footer-left,.footer-right{
