@@ -15,7 +15,7 @@
 .banner-text {
     text-align: center;
     color: #fff;
-    padding-top: 250px;
+    padding-top: 260px;
 }
 
 .banner-text h1 {
@@ -107,7 +107,7 @@ nav ul li a {
         margin: 20px auto;
     }
     #banner{
-      height: 73vh;
+      height: 75vh;
     } 
 }
 
@@ -610,7 +610,7 @@ font-size: 15px;
     transform: translateY(-7px);
 }
 .social-link p{
-    font-size: 20px;
+    font-size: 16px;
     margin: 30px;
     color: #000000;
 }    
