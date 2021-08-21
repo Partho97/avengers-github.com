@@ -563,10 +563,11 @@ hr{
 }
 .footer-row h1{
     margin: 20px 0;
+    color:#000;
     
 }
 .footer-row p{
-    color: #800000;
+    color: #000;
     line-height: 45px;
 
 }
