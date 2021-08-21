@@ -611,7 +611,7 @@ font-size: 15px;
 }
 .social-link p{
     font-size: 11px;
-    margin: 25px;
+    margin: 75px;
     color: #000000;
 }    
 @media screen and (max-width: 770px){
@@ -624,6 +624,9 @@ font-size: 15px;
         left: 60%;
         top: 14%;
         
+    }
+    .social-link p{
+        margin: 25px;
     }
 }    
     
