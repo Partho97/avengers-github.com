@@ -610,14 +610,14 @@ font-size: 15px;
     transform: translateY(-7px);
 }
 .social-link p{
-    font-size: 12px;
+    font-size: 20px;
     margin: 100px;
     color: #000000;
 }    
 @media screen and (max-width: 770px){
     .footer-left,.footer-right{
         flex-basis: 100%;
-        font-size: 11px;
+        font-size: 12px;
     }
     .footer-img{
         right: 14%;
