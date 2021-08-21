@@ -188,7 +188,7 @@ nav ul li a {
 }
 .about-text p{
     padding: 0 20px;
-    color: #800000;
+    color: #000000;
     font-weight: bold;
 }
 @media screen and (max-width: 770px){
@@ -507,7 +507,7 @@ hr{
 }
 .trainer-col p{
     font-size: 14px;
-    color: #800000;
+    color: #000000;
    font-weight: bold;
 }
 .user{
@@ -558,6 +558,10 @@ hr{
     margin-bottom: 50px;
     
 }
+.footer-left p{
+    color:#000000;
+    line-height: 45px;
+}
 .footer-right{
     text-align: right;
 }
@@ -566,7 +570,7 @@ hr{
     
 }
 .footer-row p{
-    color: #800000;
+    color:#000000;
     line-height: 45px;
 
 }
@@ -608,7 +612,7 @@ font-size: 15px;
 .social-link p{
     font-size: 12px;
     margin: 100px;
-    color: #009688;
+    color: #000000;
 }    
 @media screen and (max-width: 770px){
     .footer-left,.footer-right{
