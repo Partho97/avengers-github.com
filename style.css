@@ -1,7 +1,17 @@
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+}
+:root{
+    --primary-color: #fff;
+    --secondary-color: #000000;
+}
+
+#ion{
+    width: 30px;
+    cursor: pointer;
 }
 
 #banner {
@@ -15,7 +25,7 @@
 .banner-text {
     text-align: center;
     color: #fff;
-    padding-top: 130px;
+    padding-top: 200px;
 }
 
 .banner-text h1 {
@@ -28,7 +38,7 @@
 }
 
 .banner-btn{
-    margin: 70px auto 0;
+    margin: 50px auto 0;
 }
 .banner-btn a{
     width: 150px;
@@ -57,7 +67,7 @@
     
 }
 .banner-btn a:hover{
-    color: #000;
+    color: #000000;
 }
 
 #sideNav {
@@ -117,6 +127,7 @@ nav ul li a {
 #about {
     width: 100%;
     padding: 70px 0;
+    background: #fff;
 }
 
 .title-text {
@@ -355,7 +366,7 @@ hr{
     border-radius: 50px;
 }
 .container .video-list::-webkit-scrollbar-thumb{
-    background: #666;
+    background: #000000;
     border-radius: 50px;
 }
 .container .video-list .vid video{
@@ -377,7 +388,7 @@ hr{
     background: #eee;
 }
 .container .video-list .vid.active{
-    background: #2980b9;
+    background: #009688;
     
 }
 .container .video-list .vid.active .title{
@@ -486,6 +497,7 @@ hr{
 
 #trainer{
     width: 100%;
+    background: #efefef;
     padding: 70px 0;
 }
 .trainer-row{
@@ -541,7 +553,7 @@ hr{
 
 #footer{
     padding: 100px 0 20px;
-    background: #efefef;
+    
     position: relative;
 }
 .footer-row{
@@ -554,28 +566,28 @@ hr{
 }
 .footer-left,.footer-right{
     flex-basis: 20%;
-    padding: 20px;
+    padding: 90px;
     margin-bottom: 50px;
     
 }
 .footer-left p{
     color:#000000;
-    line-height: 45px;
+    line-height: 15px;
 }
 .footer-right{
     text-align: right;
 }
 .footer-row h1{
-    margin: 20px 0;
+    margin: 10px 0;
     
 }
 .footer-row p{
     color:#000000;
-    line-height: 45px;
+    line-height: 15px;
 
 }
 .footer-left .fa,.footer-right .fa{
-font-size: 15px;
+font-size: 14px;
     color: #009688;
     margin: 7px;
     
@@ -596,44 +608,38 @@ font-size: 15px;
 .social-link .fa{
     height: 40px;
     width: 40px;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 40px;
     border: 1px solid #009688;
-    margin: 40px 5px 0;
+    margin:20px 10px 0;
     color: #009688;
     cursor: pointer;
-    transition: .5s;
+    transition: .4s;
 }
 .social-link .fa:hover{
     background: #009688;
-    color: #800000;
-    transform: translateY(-7px);
+    color: #000000;
+    transform: translateY(-5px);
 }
 .social-link p{
-    font-size: 11px;
-    margin: 80px;
+    font-size: 14px;
+    margin: 0px;
     color: #000000;
+    padding: 30px;
 }    
 @media screen and (max-width: 770px){
     .footer-left,.footer-right{
         flex-basis: 100%;
         font-size: 12px;
     }
+   
     .footer-img{
         right: 14%;
         left: 60%;
         top: 14%;
         
     }
+    .social-link p{
+    padding: 60px;
 }    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+}    
